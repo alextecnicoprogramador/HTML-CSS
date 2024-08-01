@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'droid';
+    src: url('fontes/idroid.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    height: 100%;
+    background-color: rgba(5, 255, 101, 0.733);
+    margin: 0px;
+    padding: 0px;
+}
+header > h1 {
+    text-transform: uppercase;
+    padding: 0px;    
+}
+header {
+    line-height: 1.8;
+    background-color: green;
+    text-align: center;
+    font-family:'bebas', Helvetica, sans-serif; 
+    color: white;
+}
+header > p {
+    padding: 10px;
+}
+nav {
+    text-underline-offset: unset;
+    padding: 0px;
+    margin-left: 5px;
+    color: white;
+    text-align: left;
+    box-shadow: 4px rgb(0, 0, 0, 134);
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+main {
+    background-color: white;
+    margin: 0% 10%;
+}
+main >h1 {
+    font-family: 'droid', serif;
+    color: green;
+    padding: 10px 0px;
+    margin: 0px 20px 10px 20px;
+    text-indent: 10px;
+}
+main > p {
+    text-align: justify;
+    text-indent: 30px;
+    margin: 0px 20px;
+}
+main > h2 {
+    font-family: 'droid', serif;
+    margin: 0px 20px 0px 20px;
+    background-image: linear-gradient(to right, rgb(135, 235, 148), white);
+    color: green;
+    text-indent: 10px;
+}
+.image_video {
+    text-align: center;
+    line-height: 1.5;
+}
+footer {
+    text-align: center;
+    line-height: 2.0;
+    background-color: green;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+aside {
+    background-color: rgba(154, 236, 186, 0.87);
+    line-height: 1.8;
+    margin: 10px;
+    padding: 0px;
+    text-indent: 10px;
+}
+aside > ul {
+    columns: 2;
+}
+#tit {
+    background-color: green;
+    color: white;
+    line-height: 1.8;
+    margin: 0;
+    padding: 10px;
+    text-indent: 10PX;
+}
+.EXTRA > p {
+    padding: 10px;
+}
+li {
+    margin: 0px 20px;
+}
+ul {
+    list-style:"✔";
+    padding: 2em 2em;
+}
